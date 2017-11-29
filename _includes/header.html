@@ -1,11 +1,18 @@
 <header>
     <nav>
-    	<a href="{{ site.baseurl }}/"><h1>Austin Lawrence</h1></a>
-    	<ul>
-    		<li><a href="{{ site.baseurl }}/projects">Project Portfolio</a></li>
-    		<li><a href="{{ site.baseurl }}/about/">About Me</a></li>
-    		<li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-    		<li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-    	</ul>
+    	<a href="{{ site.baseurl }}/"><h1>{{ site.title }}</h1></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="{{ site.baseurl }}/about">Acerca de</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{ site.baseurl }}/projects/">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{ site.baseurl }}/contact/">Contacto</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 </header>

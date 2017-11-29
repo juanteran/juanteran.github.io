@@ -1,5 +1,5 @@
 ---
-layout: construction
+layout: about
 path: /blog
 url: index.html
 ---
